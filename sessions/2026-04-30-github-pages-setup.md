@@ -241,6 +241,12 @@ User clarified: session transcript must be updated after **every Claude response
 
 ---
 
+### 16 — Fix founded year
+
+Changed "Founded" stat in the About section of `index.html` from `2025` to `2026`. Committed and pushed.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
