@@ -159,6 +159,24 @@ dig www.kavalalabs.com +noall +answer
 
 ---
 
+### 7 — Session transcript & memory
+
+User requested that all Claude responses be saved to a `.md` file after every session, for every session going forward.
+
+- Created `sessions/2026-04-30-github-pages-setup.md` with full session transcript.
+- Saved feedback memory to `/Users/vkavala/.claude/projects/.../memory/feedback_session_transcripts.md` so this happens automatically in future sessions.
+- Committed and pushed the sessions file to GitHub.
+
+Repeated DNS steps in formatted tables per registrar (Cloudflare, GoDaddy, Namecheap, Google Domains).
+
+---
+
+### 8 — Re-save request
+
+User opened the session file in the IDE and asked to save it again. Updated transcript to include responses 7 and 8, then committed and pushed.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
