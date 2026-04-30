@@ -307,6 +307,12 @@ User wanted a small seedling/sapling (not a tree), explicit dark green leaves, c
 
 ---
 
+### 23 — Favicon: bold full-canvas green leaf
+
+User compared favicon sizes — seedling was too small vs GitHub/Claude icons. Replaced with a bold leaf shape filling the full 32×32 canvas: dark green (`#1a7a3a`) teardrop/leaf with central vein, side veins, and a subtle highlight. Similar visual weight to GitHub/Claude favicons.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
