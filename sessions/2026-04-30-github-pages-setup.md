@@ -177,6 +177,61 @@ User opened the session file in the IDE and asked to save it again. Updated tran
 
 ---
 
+### 9 — DNS verification & stale IPs
+
+User ran `dig kavalalabs.com` and found two extra IPs: `76.223.105.230` and `13.248.243.5` (AWS Global Accelerator / Squarespace). GoDaddy DNS records were inspected via screenshots — no rogue records found there. Concluded the extra IPs were a propagation artifact. Re-ran `dig` and they were gone. GitHub Pages DNS check passed (green).
+
+---
+
+### 10 — HTTPS cert pending
+
+User saw `NET::ERR_CERT_COMMON_NAME_INVALID` in browser. GitHub Pages settings showed "DNS check successful" but "Enforce HTTPS" greyed out — certificate not yet issued. Advised to wait 5–30 minutes and check again. Normal behaviour immediately after DNS verification.
+
+---
+
+### 11 — GitHub Pages DNS check failure (transient)
+
+GitHub Pages settings briefly showed "DNS check unsuccessful / NotServedByPagesError". Local `dig` confirmed DNS was clean (only 4 GitHub IPs). Identified as GitHub's own DNS cache being stale. Advised to click "Check again" — resolved on its own.
+
+---
+
+### 12 — AI-native content update
+
+User requested more content around AI adoption and AI-native products for families. Changes made to `index.html`:
+
+- **Hero** — new badge "AI-Native Family Productivity", new headline: *"The AI that works for your family, not just for you"*
+- **New `#ai` section** (dark background, between pillars and about):
+  - Manifesto: why families need AI-native tools now
+  - 4 numbered principles: household-aware, proactive, private by design, trust-earning
+  - 6-feature grid: Family Memory, Predictive Planning, Natural Conversation, Age-Adaptive, On-Device First, Raising AI-Fluent Kids
+- **Products** — all 4 cards refreshed with AI-specific capability descriptions
+- **Footer** — tagline updated to "AI-Native Family Productivity"
+- Nav link "AI-Native" added
+
+Committed and pushed.
+
+---
+
+### 13 — Commit identity fix
+
+User noticed GitHub was showing commits attributed to `vinaykavala` and `claude` (from `Co-Authored-By:` lines). 
+
+**Fix applied:**
+- Set local git config: `user.name = Teja Kavala`, `user.email = teja@kavalalabs.com`
+- Rewrote all 5 commits using `git filter-branch` to set author/committer to Teja Kavala and strip all `Co-Authored-By:` lines
+- Temporarily removed branch protection, force-pushed rewritten history, re-enabled branch protection
+- All 5 commits now show only `Teja Kavala <teja@kavalalabs.com>`
+
+**Going forward:** All commits from this workspace will be under Teja Kavala. No `Co-Authored-By:` lines will be added to commits in this project.
+
+---
+
+### 14 — Session file update request
+
+User asked to update the session `.md` file and reminded to always do this. Updated this file with responses 9–14 and pushed.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
