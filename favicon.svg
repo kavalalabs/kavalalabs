@@ -1,10 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2d7a6b"/>
-      <stop offset="100%" stop-color="#c9893a"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef7f4"/>
+      <stop offset="100%" stop-color="#f5f0e8"/>
     </linearGradient>
   </defs>
-  <rect width="32" height="32" rx="7" fill="url(#g)"/>
-  <text x="16" y="22" font-family="Georgia, serif" font-weight="700" font-size="13" fill="white" text-anchor="middle" letter-spacing="-0.5">KL</text>
+
+  <!-- Background -->
+  <rect width="32" height="32" rx="7" fill="url(#bg)"/>
+
+  <!-- Trunk -->
+  <line x1="16" y1="27" x2="16" y2="17" stroke="#5a7a52" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Main branches -->
+  <line x1="16" y1="21" x2="11" y2="17" stroke="#5a7a52" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="16" y1="20" x2="21" y2="16" stroke="#5a7a52" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Upper branches -->
+  <line x1="16" y1="18" x2="13" y2="14" stroke="#5a7a52" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="16" y1="17" x2="19" y2="13" stroke="#5a7a52" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Center shoot -->
+  <line x1="16" y1="17" x2="16" y2="12" stroke="#5a7a52" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Buds — leaf tips -->
+  <circle cx="11" cy="16.5" r="2.2" fill="#2d7a6b" opacity="0.85"/>
+  <circle cx="21" cy="15.5" r="2.2" fill="#2d7a6b" opacity="0.85"/>
+  <circle cx="13" cy="13.5" r="1.8" fill="#3a9882" opacity="0.9"/>
+  <circle cx="19" cy="12.5" r="1.8" fill="#3a9882" opacity="0.9"/>
+  <circle cx="16" cy="11"   r="2"   fill="#c9893a" opacity="0.9"/>
+
+  <!-- Tiny ground line -->
+  <line x1="12" y1="27.5" x2="20" y2="27.5" stroke="#5a7a52" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
 </svg>
