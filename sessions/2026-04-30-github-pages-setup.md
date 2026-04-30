@@ -258,6 +258,17 @@ GitHub Pages settings showed "Both kavalalabs.com and its alternate name are imp
 
 ---
 
+### 18 — Clear-and-re-save instructions
+
+User asked how to do the custom domain clear-and-re-save trick. Steps:
+1. Go to github.com/kavalalabs/kavalalabs/settings/pages
+2. Clear the Custom domain text box → Save
+3. Wait 5 seconds
+4. Re-enter `kavalalabs.com` → Save
+5. DNS check should go green within 30 seconds
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
