@@ -288,6 +288,15 @@ User requested no letters in the favicon — instead a budding plant/tree on a l
 
 ---
 
+### 21 — Favicon: transparent background, bigger & brighter
+
+User requested no background, larger plant, brighter colors. Updated `favicon.svg`:
+- Removed background rect entirely (transparent)
+- Enlarged trunk, branches, and buds to fill more of the 32×32 canvas
+- Brighter greens (`#22c97a`, `#2dd882`) for leaf buds, bright gold (`#f5a623`) for top bud
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
