@@ -1,20 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-
-  <!-- Stem -->
-  <line x1="16" y1="31" x2="16" y2="18" stroke="#1a5c2a" stroke-width="2" stroke-linecap="round"/>
-
-  <!-- Left leaf -->
-  <path d="M16 22 Q9 17 10 10 Q16 14 16 22Z" fill="#1a5c2a"/>
-  <path d="M16 22 Q9 17 10 10 Q13 16 16 22Z" fill="#145022" opacity="0.5"/>
-
-  <!-- Right leaf -->
-  <path d="M16 20 Q23 15 22 8 Q16 12 16 20Z" fill="#1e6b30"/>
-  <path d="M16 20 Q23 15 22 8 Q19 14 16 20Z" fill="#145022" opacity="0.5"/>
-
-  <!-- Top bud -->
-  <ellipse cx="16" cy="7" rx="2.5" ry="3.5" fill="#22a04a"/>
-  <ellipse cx="16" cy="6.5" rx="1.2" ry="2" fill="#2dc75e" opacity="0.7"/>
-
-  <!-- Soil mound -->
-  <ellipse cx="16" cy="31" rx="5" ry="1.5" fill="#7a5230" opacity="0.5"/>
+  <!-- A bold leaf / teardrop shape filling the canvas -->
+  <path d="M16 2 C6 2 3 10 3 16 C3 24 9 30 16 30 C23 30 29 24 29 16 C29 10 26 2 16 2Z" fill="#1a7a3a"/>
+  <!-- Vein -->
+  <line x1="16" y1="7" x2="16" y2="27" stroke="#145c2c" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Left veins -->
+  <line x1="16" y1="13" x2="9"  y2="18" stroke="#145c2c" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <line x1="16" y1="18" x2="9"  y2="23" stroke="#145c2c" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <!-- Right veins -->
+  <line x1="16" y1="13" x2="23" y2="18" stroke="#145c2c" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <line x1="16" y1="18" x2="23" y2="23" stroke="#145c2c" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <!-- Highlight -->
+  <path d="M16 4 C10 4 6 10 6 15 C8 10 12 6 16 5Z" fill="#2db352" opacity="0.4"/>
 </svg>
