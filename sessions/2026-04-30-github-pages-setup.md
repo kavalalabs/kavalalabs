@@ -269,6 +269,15 @@ User asked how to do the custom domain clear-and-re-save trick. Steps:
 
 ---
 
+### 19 — Favicon
+
+User noticed the browser tab showed a generic globe icon. Added an SVG favicon:
+- Created `favicon.svg` — rounded square with teal-to-gold gradient and "KL" text, matching the nav logo mark
+- Added `<link rel="icon">` and `<link rel="apple-touch-icon">` to `index.html` `<head>`
+- Committed and pushed (required a pull --rebase first as remote had a new commit from the Pages domain save)
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
