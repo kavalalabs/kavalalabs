@@ -278,6 +278,16 @@ User noticed the browser tab showed a generic globe icon. Added an SVG favicon:
 
 ---
 
+### 20 — Favicon redesign: budding plant
+
+User requested no letters in the favicon — instead a budding plant/tree on a light background.
+
+- Redesigned `favicon.svg`: light cream/mint background, small tree with trunk, branches, teal buds, and a gold top bud (the "new growth" tip)
+- No text or letters
+- Committed and pushed
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
