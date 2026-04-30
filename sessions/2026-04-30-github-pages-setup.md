@@ -297,6 +297,16 @@ User requested no background, larger plant, brighter colors. Updated `favicon.sv
 
 ---
 
+### 22 — Favicon: seedling with dark green leaves
+
+User wanted a small seedling/sapling (not a tree), explicit dark green leaves, clean green color. Updated `favicon.svg`:
+- Thin stem with a small soil mound at the base
+- Two curved dark green leaves (`#1a5c2a`) with shadow depth
+- Small bright green bud at the top
+- Transparent background
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
