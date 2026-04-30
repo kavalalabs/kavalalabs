@@ -247,6 +247,17 @@ Changed "Founded" stat in the About section of `index.html` from `2025` to `2026
 
 ---
 
+### 17 — NotServedByPagesError (false alarm)
+
+GitHub Pages settings showed "Both kavalalabs.com and its alternate name are improperly configured / NotServedByPagesError".
+
+- Local `dig` confirmed DNS is clean: only 4 GitHub IPs for `@`, correct CNAME for `www`
+- GitHub Pages API confirmed status: `built`, cname: `kavalalabs.com`
+- Root cause: GitHub's DNS checker has a stale cache — not a real DNS problem
+- Fix: in GitHub Pages settings, clear the custom domain and re-save with `kavalalabs.com` to force a fresh DNS check
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
