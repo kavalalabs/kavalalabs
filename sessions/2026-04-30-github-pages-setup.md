@@ -232,6 +232,15 @@ User asked to update the session `.md` file and reminded to always do this. Upda
 
 ---
 
+### 15 — Update frequency clarification
+
+User clarified: session transcript must be updated after **every Claude response**, not just at end of session.
+
+- Updated memory file `feedback_session_transcripts.md` to reflect this.
+- Going forward: every response gets appended to the session file and pushed immediately.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
