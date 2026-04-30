@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kavala Labs — Family Productivity Ecosystem</title>
-  <meta name="description" content="Kavala Labs builds thoughtful software solutions for families — tools that bring order, connection, and calm to everyday life." />
+  <title>Kavala Labs — AI-Native Family Productivity</title>
+  <meta name="description" content="Kavala Labs builds AI-native software for families — intelligent tools that learn your household, reduce mental load, and bring calm to everyday life." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
@@ -313,6 +313,71 @@
     footer a { color: rgba(255,255,255,0.45); text-decoration: none; }
     footer a:hover { color: rgba(255,255,255,0.8); }
 
+    /* ── AI SECTION ── */
+    #ai { background: var(--charcoal); color: rgba(255,255,255,0.85); }
+
+    #ai .section-label { color: var(--gold-lt); }
+    #ai .section-title { color: #fff; }
+    #ai .section-body  { color: rgba(255,255,255,0.6); max-width: 600px; }
+
+    .ai-intro { text-align: center; margin-bottom: 4rem; }
+    .ai-intro .section-body { margin: 0 auto; }
+
+    .ai-manifesto {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem 5rem;
+      align-items: start;
+      margin-bottom: 4rem;
+    }
+
+    .ai-manifesto-text .section-body { max-width: 100%; }
+    .ai-manifesto-text .section-body + .section-body { margin-top: 1rem; }
+
+    .ai-principles {
+      display: flex; flex-direction: column; gap: 1.2rem;
+    }
+
+    .ai-principle {
+      display: flex; gap: 1rem; align-items: flex-start;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      padding: 1.2rem 1.4rem;
+    }
+
+    .ai-principle-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem; font-weight: 700;
+      color: var(--gold-lt); line-height: 1;
+      min-width: 2rem;
+    }
+
+    .ai-principle h4 { font-size: 0.95rem; font-weight: 600; color: #fff; margin-bottom: 0.3rem; }
+    .ai-principle p  { font-size: 0.85rem; color: rgba(255,255,255,0.5); line-height: 1.6; }
+
+    .ai-features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 3rem;
+    }
+
+    .ai-feature {
+      padding: 1.5rem;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: var(--radius);
+    }
+
+    .ai-feature-icon {
+      font-size: 1.6rem; margin-bottom: 0.8rem; display: block;
+    }
+
+    .ai-feature h4 { font-size: 0.9rem; font-weight: 600; color: #fff; margin-bottom: 0.4rem; }
+    .ai-feature p  { font-size: 0.82rem; color: rgba(255,255,255,0.45); line-height: 1.6; }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
       nav { padding: 0.9rem 1.25rem; }
@@ -320,6 +385,7 @@
       .about-split { grid-template-columns: 1fr; gap: 2.5rem; }
       .about-visual { aspect-ratio: 16/7; }
       .products-header { flex-direction: column; align-items: flex-start; }
+      .ai-manifesto { grid-template-columns: 1fr; gap: 2rem; }
     }
   </style>
 </head>
@@ -333,6 +399,7 @@
     </a>
     <ul class="nav-links">
       <li><a href="#pillars">What We Do</a></li>
+      <li><a href="#ai">AI-Native</a></li>
       <li><a href="#products">Products</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -341,10 +408,10 @@
 
   <!-- HERO -->
   <header class="hero">
-    <div class="hero-badge"><span>✦</span> Family Productivity Ecosystem</div>
-    <h1>Calm, connected&nbsp;tools for the <em>modern family</em></h1>
+    <div class="hero-badge"><span>✦</span> AI-Native Family Productivity</div>
+    <h1>The AI that works <em>for your family</em>, not just for you</h1>
     <p class="hero-sub">
-      Kavala Labs crafts software that brings order to busy households — from shared schedules and chore boards to memory-keeping and beyond.
+      Kavala Labs builds AI-native products that understand your household — learning your rhythms, reducing mental load, and helping every family member thrive in a rapidly changing world.
     </p>
     <div class="cta-row">
       <a href="#products" class="btn btn-primary">See What We're Building →</a>
@@ -392,6 +459,95 @@
           <div class="pillar-icon icon-slate">🔗</div>
           <h3>Deep Integration</h3>
           <p>Our apps talk to each other and to the tools you already use — because the best system is the one you'll actually stick with.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI SECTION -->
+  <section id="ai">
+    <div class="container">
+      <div class="ai-intro">
+        <p class="section-label">AI at the Core</p>
+        <h2 class="section-title">Built for the age of AI — from day one</h2>
+        <p class="section-body">
+          We're not bolting AI onto existing apps. Every product at Kavala Labs is designed ground-up with AI as the operating layer — so your family gets a system that thinks ahead, not just one that reacts.
+        </p>
+      </div>
+
+      <div class="ai-manifesto">
+        <div class="ai-manifesto-text">
+          <p class="section-label">Our Belief</p>
+          <h3 class="section-title" style="font-size:clamp(1.4rem,2.5vw,2rem);">AI should reduce the mental load on families, not add to it</h3>
+          <p class="section-body">
+            The world is changing fast. AI is reshaping how we work, learn, and communicate — but most AI tools are built for individuals, at work. Families are left to figure it out on their own.
+          </p>
+          <p class="section-body">
+            We believe every household deserves an intelligent layer that handles the coordination overhead, anticipates needs before they become problems, and grows smarter the longer your family uses it — all while keeping your data private and your autonomy intact.
+          </p>
+        </div>
+        <div class="ai-principles">
+          <div class="ai-principle">
+            <div class="ai-principle-num">01</div>
+            <div>
+              <h4>Household-aware, not just user-aware</h4>
+              <p>Our AI understands the whole family — different schedules, ages, preferences, and roles — not just the person holding the phone.</p>
+            </div>
+          </div>
+          <div class="ai-principle">
+            <div class="ai-principle-num">02</div>
+            <div>
+              <h4>Proactive, not reactive</h4>
+              <p>It notices when soccer practice conflicts with a dinner reservation before you do. It suggests the grocery reorder before you run out. It plans so you don't have to.</p>
+            </div>
+          </div>
+          <div class="ai-principle">
+            <div class="ai-principle-num">03</div>
+            <div>
+              <h4>Private by design</h4>
+              <p>Your family's data trains your family's AI — not ours. No ads, no data brokering, no model training on your household's life.</p>
+            </div>
+          </div>
+          <div class="ai-principle">
+            <div class="ai-principle-num">04</div>
+            <div>
+              <h4>AI that earns trust gradually</h4>
+              <p>We start with suggestions, not automation. Your family stays in control — the AI earns more autonomy as you get comfortable with it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ai-features">
+        <div class="ai-feature">
+          <span class="ai-feature-icon">🧠</span>
+          <h4>Family Memory</h4>
+          <p>Remembers preferences, allergies, schedules, and habits across every family member — so you never have to repeat yourself.</p>
+        </div>
+        <div class="ai-feature">
+          <span class="ai-feature-icon">🔮</span>
+          <h4>Predictive Planning</h4>
+          <p>Learns your weekly rhythms and flags conflicts, low-stock items, and upcoming needs before they become last-minute scrambles.</p>
+        </div>
+        <div class="ai-feature">
+          <span class="ai-feature-icon">💬</span>
+          <h4>Natural Conversation</h4>
+          <p>Just say "add swim lessons every Tuesday" or "what's for dinner this week" — no tapping through menus.</p>
+        </div>
+        <div class="ai-feature">
+          <span class="ai-feature-icon">👶</span>
+          <h4>Age-Adaptive</h4>
+          <p>Adjusts complexity and interaction style for each family member — a 7-year-old and a parent get different, right-sized experiences.</p>
+        </div>
+        <div class="ai-feature">
+          <span class="ai-feature-icon">🔒</span>
+          <h4>On-Device First</h4>
+          <p>Sensitive family data stays on your devices wherever possible. Cloud sync is encrypted end-to-end, always.</p>
+        </div>
+        <div class="ai-feature">
+          <span class="ai-feature-icon">🌍</span>
+          <h4>Raising AI-Fluent Kids</h4>
+          <p>Designed to help children grow up understanding and working alongside AI — not just consuming it passively.</p>
         </div>
       </div>
     </div>
@@ -455,22 +611,22 @@
         <div class="product-card">
           <span class="product-tag tag-coming">Coming Soon</span>
           <h3>FamilyFlow</h3>
-          <p>A unified dashboard for your household — calendar, chores, grocery, and announcements in one calm view that everyone in the family can access.</p>
+          <p>An AI-powered household command center — calendar, chores, grocery, and announcements in one calm view. The AI resolves scheduling conflicts automatically and preps your week every Sunday night.</p>
         </div>
         <div class="product-card">
           <span class="product-tag tag-coming">Coming Soon</span>
           <h3>Momentbook</h3>
-          <p>Auto-organizes your camera roll into a living family journal. AI captions, searchable memories, and beautiful printed books on demand.</p>
+          <p>Your family's AI memory keeper. Auto-organizes your camera roll, writes captions in your family's voice, surfaces forgotten moments, and creates printed books — with zero manual effort.</p>
         </div>
         <div class="product-card">
           <span class="product-tag tag-idea">Exploring</span>
           <h3>KidsDash</h3>
-          <p>A kid-friendly routine board that turns daily tasks into adventures. Streaks, rewards, and parent check-ins — designed with children, not just for them.</p>
+          <p>An AI companion that helps kids build independence. It adapts to each child's age and learning style, turns routines into adventures, and coaches — not nags — without replacing the parent.</p>
         </div>
         <div class="product-card">
           <span class="product-tag tag-idea">Exploring</span>
           <h3>HomeLedger</h3>
-          <p>Shared household finances without the awkwardness. Track expenses, split costs, manage allowances, and set saving goals together.</p>
+          <p>AI-assisted family finances — shared budgets, smart expense categorization, allowance tracking, and plain-language insights. Turns "where did the money go?" into a five-second answer.</p>
         </div>
       </div>
     </div>
@@ -506,7 +662,7 @@
       <div class="logo-mark">KL</div>
       <span class="footer-name">Kavala Labs</span>
     </div>
-    <p>Family Productivity Ecosystem &mdash; Built with care.</p>
+    <p>AI-Native Family Productivity &mdash; Built with care.</p>
     <p style="margin-top:1rem;">
       &copy; 2025&ndash;2026 Kavala Labs &nbsp;&middot;&nbsp;
       <a href="mailto:hello@kavalalabs.com">hello@kavalalabs.com</a> &nbsp;&middot;&nbsp;
