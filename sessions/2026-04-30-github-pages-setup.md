@@ -375,6 +375,18 @@ Added purple (`#7C3AED`) as a 4th color variant across all 19 shapes (76 total i
 
 ---
 
+### 30 — Redesign K icons as pure Akiflow-style stroke
+
+User clarified: no border/container, just the K letter drawn as thick strokes on transparent background — same approach as Akiflow's "A". Replaced options 16–19 with 4 stroke-only K variations:
+- **16** — Classic tight K (closest to Akiflow)
+- **17** — Stylized K with gap/notch at midpoint
+- **18** — Wide bold K, arms spread further
+- **19** — Rounded K with curved polyline arms
+
+All 4 in all 4 colors. Preview updated and reopened.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
