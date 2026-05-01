@@ -363,6 +363,18 @@ Shapes 3/4/5 were originally designed in flamingo/orange (not green), so the aut
 
 ---
 
+### 29 — Akiflow-style K icons + purple across all options
+
+Added 4 new Akiflow-inspired "K" shapes (16–19) — bold outlined letter with thick colored border and light interior, in all 4 colors:
+- **16** — K in rounded square (Akiflow-style)
+- **17** — K in thick circle
+- **18** — K in pill
+- **19** — K in diamond/rotated square
+
+Added purple (`#7C3AED`) as a 4th color variant across all 19 shapes (76 total icons). Updated preview.html — now shows 19 shapes × 4 colors. Pushed and opened.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
