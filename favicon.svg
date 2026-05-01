@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- Bold sprouting seed — two leaves + stem, green -->
-  <line x1="16" y1="28" x2="16" y2="16" stroke="#1a7a3a" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M16 20 Q7 16 8 7 Q16 11 16 20Z" fill="#1a7a3a"/>
-  <path d="M16 18 Q25 14 24 5 Q16 9 16 18Z" fill="#22a04a"/>
-  <ellipse cx="16" cy="28.5" rx="5" ry="2" fill="#1a7a3a" opacity="0.3"/>
+  <line x1="11" y1="7"  x2="11" y2="27" stroke="#16a34a44" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="11" y1="17" x2="25" y2="7"  stroke="#16a34a44" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="11" y1="17" x2="25" y2="27" stroke="#16a34a44" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="8"  y1="5"  x2="8"  y2="25" stroke="#16a34a"   stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="8"  y1="15" x2="22" y2="5"  stroke="#16a34a"   stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="8"  y1="15" x2="22" y2="25" stroke="#16a34a"   stroke-width="5.5" stroke-linecap="round"/>
 </svg>
