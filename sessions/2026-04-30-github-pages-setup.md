@@ -416,6 +416,12 @@ Favicon wasn't showing in browser due to aggressive caching. Added `?v=3` versio
 
 ---
 
+### 34 — Update browser tab title to "Labs"
+
+User saw favicon working (K icon confirmed in tab). Requested tab title shortened: remove "Kavala" (implied by K icon) and remove "AI-Native Family Productivity" subtitle. Changed `<title>` from "Kavala Labs — AI-Native Family Productivity" to just "Labs".
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
