@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Favicon Options</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #f5f0e8; display: flex; flex-direction: column; align-items: center; padding: 3rem 2rem; gap: 2rem; }
+    h2 { color: #1c1c1e; }
+    .grid { display: flex; gap: 2.5rem; flex-wrap: wrap; justify-content: center; }
+    .card { background: white; border-radius: 16px; padding: 2rem 2.5rem; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.08); display: flex; flex-direction: column; align-items: center; gap: 1rem; min-width: 140px; }
+    .card img { width: 64px; height: 64px; }
+    .card .num { font-size: 1.1rem; font-weight: 700; color: #1c1c1e; }
+    .card .desc { font-size: 0.8rem; color: #666; line-height: 1.4; max-width: 120px; }
+    /* Simulate tab size too */
+    .tab-row { display: flex; gap: 2rem; align-items: center; background: #e8e0d0; padding: 1rem 2rem; border-radius: 12px; }
+    .tab-row img { width: 16px; height: 16px; }
+    .tab-size { font-size: 0.75rem; color: #666; }
+  </style>
+</head>
+<body>
+  <h2>Favicon Options — Large (64px)</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="option1.svg"/>
+      <div class="num">Option 1</div>
+      <div class="desc">Sprouting seedling — two green leaves + stem</div>
+    </div>
+    <div class="card">
+      <img src="option2.svg"/>
+      <div class="num">Option 2</div>
+      <div class="desc">Hexagon badge with leaf inside — forest green</div>
+    </div>
+    <div class="card">
+      <img src="option3.svg"/>
+      <div class="num">Option 3</div>
+      <div class="desc">Family circles + arc — Flamingo/Asana pink</div>
+    </div>
+    <div class="card">
+      <img src="option4.svg"/>
+      <div class="num">Option 4</div>
+      <div class="desc">Teardrop / raindrop — Claude orange</div>
+    </div>
+    <div class="card">
+      <img src="option5.svg"/>
+      <div class="num">Option 5</div>
+      <div class="desc">6-petal bloom — flamingo-to-orange gradient</div>
+    </div>
+  </div>
+
+  <h2 style="margin-top:2rem;">How they look at tab size (16px)</h2>
+  <div class="tab-row">
+    <img src="option1.svg"/> <span class="tab-size">1</span>
+    <img src="option2.svg"/> <span class="tab-size">2</span>
+    <img src="option3.svg"/> <span class="tab-size">3</span>
+    <img src="option4.svg"/> <span class="tab-size">4</span>
+    <img src="option5.svg"/> <span class="tab-size">5</span>
+  </div>
+</body>
+</html>

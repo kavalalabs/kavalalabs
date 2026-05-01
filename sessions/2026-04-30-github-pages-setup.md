@@ -313,6 +313,20 @@ User compared favicon sizes — seedling was too small vs GitHub/Claude icons. R
 
 ---
 
+### 24 — 5 favicon options for review
+
+User asked for 5 icon options in green, flamingo (Asana), and orange (Claude) colors. Created in `favicon-options/`:
+
+- **Option 1** — Sprouting seedling, two leaves + stem (green)
+- **Option 2** — Hexagon badge with leaf inside (forest green)
+- **Option 3** — Three family circles + connecting arc on flamingo/Asana pink background
+- **Option 4** — Bold teardrop/raindrop shape (Claude orange)
+- **Option 5** — 6-petal bloom on flamingo-to-orange gradient background
+
+Preview page created at `favicon-options/preview.html` and opened in browser. User to pick one.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
