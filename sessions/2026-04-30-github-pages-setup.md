@@ -404,6 +404,12 @@ User said previous K icons were too similar. Replaced with 9 completely differen
 
 ---
 
+### 32 — Applied favicon: option 20 green
+
+Applied `option20.svg` (3D extruded K, green) as live `favicon.svg`. Committed and pushed.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
