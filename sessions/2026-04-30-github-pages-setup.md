@@ -410,6 +410,12 @@ Applied `option20.svg` (3D extruded K, green) as live `favicon.svg`. Committed a
 
 ---
 
+### 33 — Favicon cache bust
+
+Favicon wasn't showing in browser due to aggressive caching. Added `?v=3` version query string to both `<link rel="icon">` and `<link rel="apple-touch-icon">` in index.html to force browsers to fetch the new file. To verify: open Incognito window or use DevTools → right-click reload → "Empty Cache and Hard Reload".
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
