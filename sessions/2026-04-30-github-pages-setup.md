@@ -345,6 +345,12 @@ Updated `preview.html` to show all 15 with tab-size row. Opened in browser.
 
 ---
 
+### 26 — Icons 6–10 in all 3 colors
+
+Added flamingo and orange variants for shapes 6–10 (10 new SVGs). Updated preview.html with grouped layout — each shape row shows green / flamingo / orange side by side, plus tab-size row at bottom. Opened in browser.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
