@@ -422,6 +422,18 @@ User saw favicon working (K icon confirmed in tab). Requested tab title shortene
 
 ---
 
+### 35 — Revert title, present 4 options
+
+User asked to revert "Labs" title and choose from 4 six-word tab title options:
+1. Family life, beautifully run by AI
+2. AI tools built for your family
+3. Smarter homes. Happier families. Built here.
+4. Where family and AI meet daily
+
+Title reverted to original while user decides.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
