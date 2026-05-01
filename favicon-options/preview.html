@@ -52,10 +52,15 @@ const shapes = [
   { n:13, desc:"KL — pill gradient" },
   { n:14, desc:"KL — leaf background" },
   { n:15, desc:"KL — outlined stroke" },
-  { n:16, desc:"K — stroke only, classic tight (Akiflow-style)" },
-  { n:17, desc:"K — stroke only, stylized gap at midpoint" },
-  { n:18, desc:"K — stroke only, wide bold stance" },
-  { n:19, desc:"K — stroke only, rounded curved arms" },
+  { n:16, desc:"K — neon double-stroke / glow halo" },
+  { n:17, desc:"K — Bauhaus geometric, filled triangles" },
+  { n:18, desc:"K — ultra-thin hairline, fashion monogram" },
+  { n:19, desc:"K — capsule/pill strokes" },
+  { n:20, desc:"K — 3D extruded shadow offset" },
+  { n:21, desc:"K — cutout (white K on solid square)" },
+  { n:22, desc:"K — cutout on circle/pill" },
+  { n:23, desc:"K — graffiti / broken asymmetric" },
+  { n:24, desc:"K — circle-framed outline" },
 ];
 
 const colors = [
@@ -86,7 +91,7 @@ document.write(html);
 <h2>All at actual tab size (16px)</h2>
 <div class="tab-sim" id="tabrow"></div>
 <script>
-const shapes2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19];
+const shapes2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24];
 const colors2 = ["","−flamingo","−orange","−purple"];
 const tr = document.getElementById('tabrow');
 for (const n of shapes2) {
