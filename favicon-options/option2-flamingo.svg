@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Hexagon with a leaf inside — forest green -->
+  <polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="#9b1c1c"/>
+  <path d="M16 8 C10 10 8 16 10 22 C13 18 16 14 16 8Z" fill="#ffb3b3"/>
+  <path d="M16 8 C22 10 24 16 22 22 C19 18 16 14 16 8Z" fill="#ffb3b3" opacity="0.7"/>
+  <line x1="16" y1="8" x2="16" y2="24" stroke="#9b1c1c" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

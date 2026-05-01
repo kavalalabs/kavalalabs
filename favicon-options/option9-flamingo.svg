@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <path d="M16 28 C16 28 6 24 6 17 C6 12 10 10 13 13 C15 15 16 18 16 18 C16 18 17 15 19 13 C22 10 26 12 26 17 C26 24 16 28 16 28Z" fill="#F06A6A"/>
-  <path d="M16 28 C16 28 9 23 9 17 C9 13 12 11.5 14 13.5" stroke="#ffb3b3" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- Abstract infinity/sprout loop -->
+  <path d="M16 28 C16 28 6 24 6 17 C6 12 10 10 13 13 C15 15 16 18 16 18 C16 18 17 15 19 13 C22 10 26 12 26 17 C26 24 16 28 16 28Z" fill="#9b1c1c"/>
+  <path d="M16 28 C16 28 9 23 9 17 C9 13 12 11.5 14 13.5" stroke="#ffb3b3" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.5"/>
   <circle cx="16" cy="7" r="3.5" fill="#ff9a9a"/>
-  <line x1="16" y1="10.5" x2="16" y2="18" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+  <line x1="16" y1="10.5" x2="16" y2="18" stroke="#9b1c1c" stroke-width="2" stroke-linecap="round"/>
 </svg>
