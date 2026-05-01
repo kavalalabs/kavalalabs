@@ -434,6 +434,12 @@ Title reverted to original while user decides.
 
 ---
 
+### 36 — Apply new page title
+
+Set `<title>` to: "Family life, beautifully run by AI | Kavala Labs". Committed and pushed.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
