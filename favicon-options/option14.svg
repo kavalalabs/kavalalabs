@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- KL — leaf shape as background, white letters -->
+  <path d="M16 1 C6 1 2 9 2 16 C2 24 8 31 16 31 C24 31 30 24 30 16 C30 9 26 1 16 1Z" fill="#15803d"/>
+  <path d="M16 1 C10 4 7 10 9 17" stroke="#4ade80" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <text x="16" y="22" font-family="Georgia, serif" font-weight="700" font-size="13" fill="white" text-anchor="middle" letter-spacing="-0.5">KL</text>
+</svg>

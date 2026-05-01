@@ -2,58 +2,146 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <title>Favicon Options</title>
+  <title>Favicon Options — Kavala Labs</title>
   <style>
-    body { font-family: system-ui, sans-serif; background: #f5f0e8; display: flex; flex-direction: column; align-items: center; padding: 3rem 2rem; gap: 2rem; }
-    h2 { color: #1c1c1e; }
-    .grid { display: flex; gap: 2.5rem; flex-wrap: wrap; justify-content: center; }
-    .card { background: white; border-radius: 16px; padding: 2rem 2.5rem; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.08); display: flex; flex-direction: column; align-items: center; gap: 1rem; min-width: 140px; }
-    .card img { width: 64px; height: 64px; }
-    .card .num { font-size: 1.1rem; font-weight: 700; color: #1c1c1e; }
-    .card .desc { font-size: 0.8rem; color: #666; line-height: 1.4; max-width: 120px; }
-    /* Simulate tab size too */
-    .tab-row { display: flex; gap: 2rem; align-items: center; background: #e8e0d0; padding: 1rem 2rem; border-radius: 12px; }
-    .tab-row img { width: 16px; height: 16px; }
-    .tab-size { font-size: 0.75rem; color: #666; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #f5f0e8; padding: 3rem 2rem; color: #1c1c1e; }
+    h1 { text-align: center; margin-bottom: 0.4rem; font-size: 1.4rem; }
+    .subtitle { text-align: center; color: #666; font-size: 0.85rem; margin-bottom: 2.5rem; }
+    h2 { font-size: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin: 2.5rem 0 1rem; }
+    .grid { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .card {
+      background: white; border-radius: 14px; padding: 1.5rem 1.2rem;
+      text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      display: flex; flex-direction: column; align-items: center; gap: 0.8rem;
+      width: 130px; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s;
+      border: 2px solid transparent;
+    }
+    .card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
+    .card.active { border-color: #16a34a; }
+    .large { width: 64px; height: 64px; }
+    .num { font-size: 0.85rem; font-weight: 700; color: #1c1c1e; }
+    .desc { font-size: 0.72rem; color: #888; line-height: 1.4; }
+
+    /* Tab simulator */
+    .tab-sim {
+      background: #ddd; border-radius: 10px; padding: 0.8rem 1.5rem;
+      display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+    .tab-item { display: flex; align-items: center; gap: 5px; background: #f0f0f0; border-radius: 6px; padding: 4px 10px; }
+    .tab-item img { width: 16px; height: 16px; }
+    .tab-item span { font-size: 0.72rem; color: #444; }
   </style>
 </head>
 <body>
-  <h2>Favicon Options — Large (64px)</h2>
+  <h1>Favicon Options — Kavala Labs</h1>
+  <p class="subtitle">Option 1 is currently live. Click any card to see it bigger (just a visual hint).</p>
+
+  <h2>Original 5</h2>
   <div class="grid">
-    <div class="card">
-      <img src="option1.svg"/>
-      <div class="num">Option 1</div>
-      <div class="desc">Sprouting seedling — two green leaves + stem</div>
+    <div class="card active">
+      <img class="large" src="option1.svg"/>
+      <div class="num">Option 1 ✓ Live</div>
+      <div class="desc">Sprouting seedling, two leaves + stem — green</div>
     </div>
     <div class="card">
-      <img src="option2.svg"/>
+      <img class="large" src="option2.svg"/>
       <div class="num">Option 2</div>
-      <div class="desc">Hexagon badge with leaf inside — forest green</div>
+      <div class="desc">Hexagon with leaf — forest green</div>
     </div>
     <div class="card">
-      <img src="option3.svg"/>
+      <img class="large" src="option3.svg"/>
       <div class="num">Option 3</div>
-      <div class="desc">Family circles + arc — Flamingo/Asana pink</div>
+      <div class="desc">Family circles + arc — flamingo pink</div>
     </div>
     <div class="card">
-      <img src="option4.svg"/>
+      <img class="large" src="option4.svg"/>
       <div class="num">Option 4</div>
-      <div class="desc">Teardrop / raindrop — Claude orange</div>
+      <div class="desc">Bold teardrop — Claude orange</div>
     </div>
     <div class="card">
-      <img src="option5.svg"/>
+      <img class="large" src="option5.svg"/>
       <div class="num">Option 5</div>
       <div class="desc">6-petal bloom — flamingo-to-orange gradient</div>
     </div>
   </div>
 
-  <h2 style="margin-top:2rem;">How they look at tab size (16px)</h2>
-  <div class="tab-row">
-    <img src="option1.svg"/> <span class="tab-size">1</span>
-    <img src="option2.svg"/> <span class="tab-size">2</span>
-    <img src="option3.svg"/> <span class="tab-size">3</span>
-    <img src="option4.svg"/> <span class="tab-size">4</span>
-    <img src="option5.svg"/> <span class="tab-size">5</span>
+  <h2>New Green Icons (6–10)</h2>
+  <div class="grid">
+    <div class="card">
+      <img class="large" src="option6.svg"/>
+      <div class="num">Option 6</div>
+      <div class="desc">Circle with white leaf cutout — bright green</div>
+    </div>
+    <div class="card">
+      <img class="large" src="option7.svg"/>
+      <div class="num">Option 7</div>
+      <div class="desc">Stacked growth rings / leaves — multi-green</div>
+    </div>
+    <div class="card">
+      <img class="large" src="option8.svg"/>
+      <div class="num">Option 8</div>
+      <div class="desc">Rounded square, bright leaf on dark green bg</div>
+    </div>
+    <div class="card">
+      <img class="large" src="option9.svg"/>
+      <div class="num">Option 9</div>
+      <div class="desc">Infinity loop sprout + bud — green</div>
+    </div>
+    <div class="card">
+      <img class="large" src="option10.svg"/>
+      <div class="num">Option 10</div>
+      <div class="desc">8-petal bloom — all green tones</div>
+    </div>
+  </div>
+
+  <h2>KL Letter Styles (11–15)</h2>
+  <div class="grid">
+    <div class="card">
+      <img class="large" src="option11.svg"/>
+      <div class="num">Option 11</div>
+      <div class="desc">Rounded square, white serif KL — dark green</div>
+    </div>
+    <div class="card">
+      <img class="large" src="option12.svg"/>
+      <div class="num">Option 12</div>
+      <div class="desc">Circle outline, green KL on white — bold sans</div>
+    </div>
+    <div class="card">
+      <img class="large" src="option13.svg"/>
+      <div class="num">Option 13</div>
+      <div class="desc">Pill/circle, white KL — teal-to-green gradient</div>
+    </div>
+    <div class="card">
+      <img class="large" src="option14.svg"/>
+      <div class="num">Option 14</div>
+      <div class="desc">Leaf-shaped bg, white serif KL — green</div>
+    </div>
+    <div class="card">
+      <img class="large" src="option15.svg"/>
+      <div class="num">Option 15</div>
+      <div class="desc">Outlined square + stroke KL — transparent bg</div>
+    </div>
+  </div>
+
+  <h2>All at actual tab size (16px)</h2>
+  <div class="tab-sim">
+    <div class="tab-item"><img src="option1.svg"/><span>1 ✓</span></div>
+    <div class="tab-item"><img src="option2.svg"/><span>2</span></div>
+    <div class="tab-item"><img src="option3.svg"/><span>3</span></div>
+    <div class="tab-item"><img src="option4.svg"/><span>4</span></div>
+    <div class="tab-item"><img src="option5.svg"/><span>5</span></div>
+    <div class="tab-item"><img src="option6.svg"/><span>6</span></div>
+    <div class="tab-item"><img src="option7.svg"/><span>7</span></div>
+    <div class="tab-item"><img src="option8.svg"/><span>8</span></div>
+    <div class="tab-item"><img src="option9.svg"/><span>9</span></div>
+    <div class="tab-item"><img src="option10.svg"/><span>10</span></div>
+    <div class="tab-item"><img src="option11.svg"/><span>11</span></div>
+    <div class="tab-item"><img src="option12.svg"/><span>12</span></div>
+    <div class="tab-item"><img src="option13.svg"/><span>13</span></div>
+    <div class="tab-item"><img src="option14.svg"/><span>14</span></div>
+    <div class="tab-item"><img src="option15.svg"/><span>15</span></div>
   </div>
 </body>
 </html>
