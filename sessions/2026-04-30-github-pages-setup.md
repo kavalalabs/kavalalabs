@@ -327,6 +327,24 @@ Preview page created at `favicon-options/preview.html` and opened in browser. Us
 
 ---
 
+### 25 — Apply option 1, add 10 more favicon options
+
+Applied option 1 (sprouting seedling) as live `favicon.svg`. Added 10 more options to `favicon-options/`:
+- **6** — Circle with white leaf cutout (bright green)
+- **7** — Stacked growth rings (multi-green gradient)
+- **8** — Rounded square, bright leaf on dark green bg
+- **9** — Infinity loop sprout + bud
+- **10** — 8-petal bloom, all green tones
+- **11** — Rounded square, white serif KL on dark green
+- **12** — Circle outline, green KL on white (bold sans)
+- **13** — Pill shape, white KL on teal-to-green gradient
+- **14** — Leaf-shaped background, white serif KL
+- **15** — Outlined square + stroke KL, transparent bg
+
+Updated `preview.html` to show all 15 with tab-size row. Opened in browser.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
