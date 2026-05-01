@@ -357,6 +357,12 @@ User requested all options in all colors. Used a Python script to auto-generate 
 
 ---
 
+### 28 — Fix shapes 3, 4, 5 color variants
+
+Shapes 3/4/5 were originally designed in flamingo/orange (not green), so the auto color-substitution script missed them — all 3 variants looked identical. Root cause: the script only mapped green hex values. Fixed by rewriting all 9 files (3 shapes × 3 colors) with explicit palette-aware SVG generation. Preview reopened.
+
+---
+
 ## Files Created This Session
 
 | File | Purpose |
